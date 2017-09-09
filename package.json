@@ -30,6 +30,6 @@
     "detect-port": "^1.2.1",
     "fs-extra": "^4.0.1",
     "gh-pages": "^1.0.0",
-    "serve-static": "^1.12.4"
+    "serve": "^6.0.6"
   }
 }

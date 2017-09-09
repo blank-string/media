@@ -4,6 +4,11 @@ const data = require('@blank-string/data')
 const chalk = require('chalk')
 
 const owncloud = process.env.OWNCLOUD
+if (typeof owncloud === 'undefined') {
+    console.log(chalk.red('you need to add OWNCLOUD to your variables\n\n'))
+    process.exit(1)
+}
+
 const episodes = path.resolve(owncloud, 'blankstring/episodes')
 const output = path.resolve(__dirname, 'media')
 

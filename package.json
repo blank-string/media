@@ -7,10 +7,10 @@
   },
   "scripts": {
     "copy": "node copy",
-    "start": "./start.js"
+    "start": "./static.js"
   },
   "bin": {
-    "static-blankstring": "start.js"
+    "static-blankstring": "static.js"
   },
   "repository": {
     "type": "git",

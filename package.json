@@ -1,6 +1,6 @@
 {
   "name": "@blank-string/static.blankstring.surge.sh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a place where we statically host files",
   "publishConfig": {
     "access": "public"

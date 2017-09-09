@@ -2,5 +2,13 @@ require('./copy')
 const ghpages = require('gh-pages')
 const path = require('path')
 const chalk = require('chalk')
- 
-ghpages.publish('media', err => console.error(chalk.redBright(err)))
+
+console.log(chalk.blueBright('deploying ...'))
+
+ghpages.publish('media', err => {
+    if (err) {
+        console.error(chalk.redBright(err))
+        process.exit(1)
+    }
+    else console.log(chalk.blueBright('deployed'))
+})

@@ -7,7 +7,9 @@
   },
   "scripts": {
     "copy": "node copy",
-    "start": "./static.js"
+    "start": "./static.js",
+    "surge": "surge ./media static.blankstring.com",
+    "deploy": "npm run copy && npm run surge"
   },
   "bin": {
     "static-blankstring": "static.js"

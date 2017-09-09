@@ -1,5 +1,5 @@
 {
-  "name": "@blank-string/static.blankstring.surge.sh",
+  "name": "@blank-string/static.blankstring",
   "version": "1.0.1",
   "description": "This is a place where we statically host files",
   "publishConfig": {
@@ -8,29 +8,28 @@
   "scripts": {
     "copy": "node copy",
     "start": "./static.js",
-    "surge": "surge ./media static.blankstring.com",
-    "deploy": "npm run copy && npm run surge"
+    "deploy": "npm run copy"
   },
   "bin": {
     "static-blankstring": "static.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blank-string/static.blankstring.surge.sh.git"
+    "url": "git+https://github.com/blank-string/static.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blank-string/static.blankstring.surge.sh/issues"
+    "url": "https://github.com/blank-string/static/issues"
   },
-  "homepage": "https://github.com/blank-string/static.blankstring.surge.sh#readme",
+  "homepage": "https://static.blankstring.com",
   "dependencies": {
     "@blank-string/data": "^0.6.2",
     "chalk": "^2.1.0",
     "detect-port": "^1.2.1",
     "fs-extra": "^4.0.1",
-    "serve-static": "^1.12.4",
-    "surge": "^0.19.0"
+    "gh-pages": "^1.0.0",
+    "serve-static": "^1.12.4"
   }
 }

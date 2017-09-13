@@ -12,7 +12,7 @@
     "deploy": "node deploy"
   },
   "bin": {
-    "media-blankstring": "media.js"
+    "blankstring-media": "media.js"
   },
   "repository": {
     "type": "git",

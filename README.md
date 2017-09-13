@@ -16,9 +16,9 @@ OWNCLOUD=... npm run deploy
 OWNCLOUD=... npm start
 ```
 
-You can also install this module
+You can also install and run this module which will create a local server to host the files
 
 ```bash
 npm i -g @blank-string/media.blankstring
+media-blankstring
 ```
-

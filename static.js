@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 require('./copy')
+require('./render')
 const serve = require('serve')
 const detect = require('detect-port')
 const chalk = require('chalk')

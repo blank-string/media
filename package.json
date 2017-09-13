@@ -1,28 +1,28 @@
 {
   "name": "@blank-string/media.blankstring",
   "version": "1.1.1",
-  "description": "This is a place where we statically host files",
+  "description": "This is a place where we host the media files",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "copy": "node copy",
     "render": "node render",
-    "start": "./static.js",
+    "start": "./media.js",
     "deploy": "node deploy"
   },
   "bin": {
-    "static-blankstring": "static.js"
+    "media-blankstring": "media.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blank-string/static.git"
+    "url": "git+https://github.com/blank-string/media.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blank-string/static/issues"
+    "url": "https://github.com/blank-string/media/issues"
   },
   "homepage": "https://media.blankstring.com",
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@blank-string/static.blankstring",
+  "name": "@blank-string/media.blankstring",
   "version": "1.0.1",
   "description": "This is a place where we statically host files",
   "publishConfig": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/blank-string/static/issues"
   },
-  "homepage": "https://static.blankstring.com",
+  "homepage": "https://media.blankstring.com",
   "dependencies": {
     "@blank-string/data": "^0.6.2",
     "chalk": "^2.1.0",

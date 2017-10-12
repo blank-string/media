@@ -8,7 +8,7 @@ const template = fs.readFileSync(filename).toString()
 const media = path.resolve(__dirname, 'media')
 
 const list = fs.readdirSync(media).map(file => {
-    return `<li><a href="/${file}">${file}</a></li>`
+    return `<li><a href="./${file}">${file}</a></li>`
 }).join('\n')
 
 const result = mustache.render(template, {list})

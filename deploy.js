@@ -1,4 +1,3 @@
-require('./copy')
 require('./render')
 const ghpages = require('gh-pages')
 const path = require('path')

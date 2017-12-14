@@ -26,7 +26,7 @@
   },
   "homepage": "https://media.blankstring.com",
   "dependencies": {
-    "@blank-string/data": "^16.0.0",
+    "@blank-string/data": "^17.0.0",
     "chalk": "^2.1.0",
     "detect-port": "^1.2.1",
     "fs-extra": "^4.0.1",
